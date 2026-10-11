@@ -1,0 +1,32 @@
+# Test suite covering boundary values, negative numbers, and bitwise edge cases.
+# Format: # TEST: <name> followed by inputs for std::cin.
+
+# TEST: boundary_zero
+0 0
+
+# TEST: standard_positives
+42 17
+
+# TEST: boundary_power_of_two
+1024 4
+
+# TEST: negative_numbers
+-15 -3
+
+# TEST: mixed_signed_values
+-128 31
+
+# TEST: int_max_boundary
+2147483647 1
+
+# TEST: int_min_boundary
+-2147483648 1
+
+# TEST: bitwise_mask_all_ones
+-1 255
+
+# TEST: alternating_bit_patterns
+1431655765 2863311530
+
+# TEST: maximum_bit_shift
+255 31

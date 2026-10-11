@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dSYM/
+*.suo
+*.idb
+*.pdb
+
+# Temporary folders created by testing
+compiler_diff_*
+diff_test_*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
